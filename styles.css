@@ -1,0 +1,15 @@
+.div {
+    align-self: center;
+}
+#titleRecipes {
+    text-align: center;
+    background-color: aliceblue;
+    color: blueviolet;
+    width: 30%;
+}
+
+.recipes {
+    text-align: center;
+    background-color: bisque;
+    color: brown;
+}
