@@ -1,15 +1,28 @@
-.div {
-    align-self: center;
-}
 #titleRecipes {
-    text-align: center;
+    display: flex;
     background-color: aliceblue;
     color: blueviolet;
-    width: 30%;
+    width:auto;
+}
+
+.food {
+    text-align: center;
+    color: brown;
 }
 
 .recipes {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
     background-color: bisque;
     color: brown;
+}
+
+.recipes div span {
+    background: peachpuff;
+    border: 4px solid black;
+    flex: 1 1 0%;
+  }
+.recipes a {
+    
 }
